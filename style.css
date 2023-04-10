@@ -1,0 +1,97 @@
+html {
+  box-sizing: border-box;
+  font-size: 64.2%;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+
+body{
+  line-height: 1.6rem;
+  margin: 0;
+  padding: 0;
+}
+
+.container{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(100px auto);
+}
+
+.discovery{
+  border: 2px solid rgb(243, 168, 28);
+  border-radius: 10px;
+  margin: 7px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
+}
+
+
+
+#photo{
+  width: 60px;
+  height: 50px;
+  border: 1px solid gainsboro;
+  border-radius:5px;
+  margin: 5px;
+  padding: 7px;
+  
+  text-align: center;
+  align-content: center;
+  color: black;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+img{
+  width: 90%;
+  border-radius: 50px;
+  max-height: 100px;
+  margin: 10px;
+  padding: 5px;
+}
+
+.repuesta{
+  border-radius: 16px;
+  background-color: rgb(188, 240, 233);
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 13px;
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 1.4rem;
+}
+
+.commentaire {
+  border-radius: 16px;
+  background-color: rgb(231, 170, 90);
+  display: block;
+  text-align: center;
+  margin: 10px;
+  padding: 13px;
+}
+  
+.commentaire p {
+  border-radius: 10px;
+  font-size: 1.5em;
+}
+  
+.p1 {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.p2 {
+  font-weight: bold;
+  color: red;
+}
+
+.p3 {
+  font-family: Georgia, Times, 'Times New Roman', serif;
+  background: lightskyblue;
+}
